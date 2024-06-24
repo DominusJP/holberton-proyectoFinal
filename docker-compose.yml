@@ -1,8 +1,0 @@
-version: "3"
-services:
-  frontend:
-    image: httpd:latest
-    volumes:
-      - "./frontend:/usr/local/apache2/htdocs"
-    ports:
-      - 3000:80
