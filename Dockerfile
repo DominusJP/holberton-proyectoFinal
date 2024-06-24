@@ -10,6 +10,9 @@ RUN apt-get install -y curl
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
 RUN apt-get install -y nodejs
 
+RUN npm install next@latest react@latest react-dom@latest
+RUN npm install swiper
+
 # Install other necessary packages
 RUN apt-get install -y \
     sudo \
