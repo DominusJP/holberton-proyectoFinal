@@ -24,4 +24,3 @@ EXPOSE 3000
 EXPOSE 8000
 # Set bash as the default shell
 CMD ["/bin/bash"]
-CMD ["npx next dev"]
